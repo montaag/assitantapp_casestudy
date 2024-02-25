@@ -1,0 +1,36 @@
+PODS:
+  - Flutter (1.0.0)
+  - ObjectBox (1.8.1-sync)
+  - objectbox_sync_flutter_libs (0.0.1):
+    - Flutter
+    - ObjectBox (= 1.8.1-sync)
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - objectbox_sync_flutter_libs (from `.symlinks/plugins/objectbox_sync_flutter_libs/ios`)
+  - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/darwin`)
+
+SPEC REPOS:
+  trunk:
+    - ObjectBox
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  objectbox_sync_flutter_libs:
+    :path: ".symlinks/plugins/objectbox_sync_flutter_libs/ios"
+  path_provider_foundation:
+    :path: ".symlinks/plugins/path_provider_foundation/darwin"
+
+SPEC CHECKSUMS:
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  ObjectBox: 6669c66d61ce50ab6c8a10efd6301f28d390ba77
+  objectbox_sync_flutter_libs: 903d3cd60c00addf896a4ab2596bee568a9891e6
+  path_provider_foundation: 3784922295ac71e43754bd15e0653ccfd36a147c
+
+PODFILE CHECKSUM: 819463e6a0290f5a72f145ba7cde16e8b6ef0796
+
+COCOAPODS: 1.15.2
